@@ -12,15 +12,23 @@ function getLocation(path) {
 	return location;
 }
 
+const cache = new Map();
+function getData(location) {
+	if (cache.has(location)) {
+		return cache.get(location);
+	}
+	console.log(`Getting fresh data for ${location}`);
+	const data = fs.readFileSync(`./config${location}.json`);
+	cache.set(location, data);
+	return data;
+}
+
 app.get('/favicon.ico', (req, res) => res.status(404).end());
 
 app.all('*', (req, res) => {
-	// Get actual path
-	debugger;
-	console.log(`Handling mock request for ${req.path}`);
 	const location = getLocation(req.path);
 	try {
-		const responseData = fs.readFileSync(`./config${location}.json`);
+		const responseData = getData(location);
 		if (responseData.length === 0) {
 			res.end();
 		} else {
