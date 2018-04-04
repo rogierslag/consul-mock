@@ -6,6 +6,7 @@ This enables you to run just a mock like that, so you do not need an entire VM w
 Run it as:
 
 1. Clone the repository
+1. `nvm use`
 1. `yarn install`
 1. `node index.js`
 1. Optionally set an env variable PORT to point to a port if you do not wish to use the default `8500`.
