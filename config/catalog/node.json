@@ -1,0 +1,19 @@
+{
+  "Node": {
+    "ID": "PLACEHOLDER",
+    "Node": "PLACEHOLDER",
+    "Address": "127.0.0.1",
+    "Datacenter": "PLACEHOLDER",
+    "TaggedAddresses": {
+      "lan": "127.0.0.1",
+      "wan": "127.0.0.2"
+    },
+    "Meta": {
+      "instance_type": "t2.medium"
+    }
+  },
+  "Services": {
+    "PLACEHOLDER": {
+    }
+  }
+}

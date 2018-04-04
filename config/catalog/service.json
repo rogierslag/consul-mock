@@ -1,0 +1,24 @@
+[
+  {
+    "ID": "PLACEHOLDER",
+    "Node": "PLACEHOLDER",
+    "Address": "127.0.0.1",
+    "Datacenter": "PLACEHOLDER",
+    "TaggedAddresses": {
+      "lan": "127.0.0.1",
+      "wan": "127.0.0.2"
+    },
+    "NodeMeta": {
+      "somekey": "PLACEHOLDER"
+    },
+    "CreateIndex": 51,
+    "ModifyIndex": 51,
+    "ServiceAddress": "172.17.0.3",
+    "ServiceEnableTagOverride": false,
+    "ServiceID": "PLACEHOLDER",
+    "ServiceName": "PLACEHOLDER",
+    "ServicePort": 5000,
+    "ServiceTags": [
+    ]
+  }
+]

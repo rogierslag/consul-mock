@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/rogierslag/consul-mock.git",
   "author": "Rogier Slag <rogier.slag@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

@@ -1,0 +1,43 @@
+{
+  "Config": {
+    "Datacenter": "PLACEHOLDER",
+    "NodeName": "PLACEHOLDER",
+    "NodeID": "PLACEHOLDER",
+    "Server": true,
+    "Revision": "deadbeef",
+    "Version": "1.0.0"
+  },
+  "DebugConfig": {
+  },
+  "Coord": {
+    "Adjustment": 0,
+    "Error": 1.5,
+    "Vec": [0,0,0,0,0,0,0,0]
+  },
+  "Member": {
+    "Name": "PLACEHOLDER",
+    "Addr": "10.1.10.12",
+    "Port": 8301,
+    "Tags": {
+      "bootstrap": "1",
+      "dc": "PLACEHOLDER",
+      "id": "PLACEHOLDER",
+      "port": "8500",
+      "role": "consul",
+      "vsn": "1",
+      "vsn_max": "1",
+      "vsn_min": "1"
+    },
+    "Status": 1,
+    "ProtocolMin": 1,
+    "ProtocolMax": 2,
+    "ProtocolCur": 2,
+    "DelegateMin": 2,
+    "DelegateMax": 4,
+    "DelegateCur": 4
+  },
+  "Meta": {
+    "instance_type": "i2.xlarge",
+    "os_version": "ubuntu_16.04"
+  }
+}
